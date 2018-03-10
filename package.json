@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel -d lib src"
+    "build": "babel -d lib src",
+    "test": "browserify test/index.js -o test/out.js -t [ babelify --presets [ es2015 react stage-0 ] ]"
   },
   "repository": {
     "url": "git@github.com:m4tthartley/react-with-props.git",
@@ -15,8 +16,11 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1"
   }
 }

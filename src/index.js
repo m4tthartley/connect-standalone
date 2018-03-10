@@ -1,5 +1,7 @@
-import connect from './connect'
+import withProps from './withProps'
+import withLifecycle from './withLifecycle'
 
-export connect
-
-export default connect
+export {
+	withProps,
+	withLifecycle
+}
