@@ -1,12 +1,12 @@
 {
-  "name": "connect-standalone",
+  "name": "react-with-props",
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel -d lib src"
   },
   "repository": {
-    "url": "git@github.com:m4tthartley/connect-standalone.git",
+    "url": "git@github.com:m4tthartley/react-with-props.git",
     "type": "git"
   },
   "author": "Matt Hartley <m4tthartley@gmail.com>",
